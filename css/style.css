@@ -1,0 +1,118 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* INICIO DO SITE--- */
+
+.full_container {
+    /* border: solid 2px red; */
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.div_log_cont{
+    /* border: solid 2px blue; */
+    width: 40vw;
+    padding:0 20px;
+    background-color: #777;
+}
+.div_log_cont >p {
+    margin-top: 90px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: #fff;
+    text-align: center;
+}
+.div_log_cont >img {
+    width: 100%;
+    margin-top: -40px;
+}
+
+/*Lado Formulario */
+.div_form_cont {
+    background: #000;
+    background-repeat: no-repeat;
+    width: 65vw;
+    color: #fff;
+    min-height: 100vh;
+}
+.div_form_cont >h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.div_form_cont >p, .div_form_cont form >p{
+    text-align: center;
+    color: #fff;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.div_form_cont >p a, .div_form_cont form >p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}
+
+/* Parte formulario */
+
+.div_form_cont form {
+    margin: 0 auto;
+    margin-top: -20px;
+    width: 25vw;
+    /* border: solid 2px red; */
+}
+
+.div_form_cont form >label {
+    color: rgb(223, 223, 223);
+    font-weight: lighter;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    /* border: solid 2px red; */
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+.div_form_cont form >input {
+    outline: 0;
+    width: 90%;
+    border: solid 3px rgb(198, 197, 197);
+    padding: 20px 10px;
+    margin: 10px 0;
+    background: #000;
+    font-family: Helvetica;
+    color: rgb(223, 223, 223);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.div_form_cont form >input::placeholder {
+    font-family: Helvetica;
+    color: rgb(223, 223, 223);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.div_form_cont button {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    border: solid 2px #000;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+form.form p{
+    margin-bottom: -20px;
+}
